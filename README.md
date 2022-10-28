@@ -20,5 +20,3 @@ LB: 8T HDP 4CE
 16. Packaging type: 0 - Bulk, A - General
 17-18. Customer: 00 - World wide (non-SED), 07 - World wide (SED)
 
-
-
