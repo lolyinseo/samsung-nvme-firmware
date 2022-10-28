@@ -1,2 +1,4 @@
 !ATTENTION!
 This firmware ONLY for Elpis controller!
+
+DO NOT TRY TO FLASH THIS FIRMWARE TO 970 EVO PLUS WITH Phoenix CONTROLLER 
