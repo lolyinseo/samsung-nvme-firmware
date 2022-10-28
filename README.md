@@ -1,5 +1,5 @@
-# samsung-nvme-firmware
-Collection of SAMSUNG nvme firmware
+# SAMSUNG nvme firmware
+Collection of SAMSUNG NVMe SSD firmware
 
 | M | Z | X   | X  | X  | X  | X  | X  |X   | X  | X  |  X | -  |  X |  X | X  | X  | X  |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
