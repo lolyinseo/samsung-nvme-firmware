@@ -17,7 +17,7 @@ Collection of SAMSUNG NVMe SSD firmware
 |  6-8| SSD Density  | 256, 512, 1T0, 2T0 |
 |   9| NAND PKG & NAND Voltage  | H: BGA (LF,HF) |
 |   10| Flash Generation  | M: 1st Generation, A: 2nd, B: 3rd, C: 4th |
-|   11-12| NAND Density  |JR: 2T ODP 2CE (FBI), LS: 4T HDP 2CE(FBI), LA: 8T HDP 2CE(FBI), HQ: 1T QDP 4CE, JQ: 2T ODP 4CE, LR: 4T HDP 4CE |
+|   11-12| NAND Density  |JR: 2T ODP 2CE (FBI), LS: 4T HDP 2CE(FBI), LA: 8T HDP 2CE(FBI), HQ: 1T QDP 4CE, JQ: 2T ODP 4CE, LR: 4T HDP 4CE, LB: 8T HDP 4CE |
 |   14|  Default |0 |
 |   15| HW revision  |0: No revision |
 |   16|Packaging type   | 0: Bulk, A: General|
