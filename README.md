@@ -21,6 +21,6 @@ Collection of SAMSUNG NVMe SSD firmware
 |   14|  Default |0 |
 |   15| HW revision  |0: No revision |
 |   16|Packaging type   | 0: Bulk, A: General|
-|   17-18| Customer  |00: World wide (non-SED), 07: World wide (SED) |
+|   17-18| Customer  |00: World wide (non-SED), 07: World wide (SED), H7 - HP SED, L7 - Lenovo SED, D1 - Dell SED, etc |
 
 
