@@ -13,7 +13,7 @@ Collection of SAMSUNG NVMe SSD firmware
 |  2 |Module Classification   | Z: SSD|
 |   3| Form Factor  |V: PCIeM.2 (22*80, PCIe x4), Q: PCIe2.5 inch 7mmt, 7: 2.5" 7mmT SATA |
 |   4| Line-Up  |L: Client/SV (VNAND 3bit MLC), K: Client/SV (VNAND 2bit MLC) |
-|   5| Controller  |B: Phoenix, 2: Elpis, T: RFX |
+|   5| Controller  |B: Phoenix, 2: Elpis, T: RFX, W: Polaris |
 |  6-8| SSD Density  | 256, 512, 1T0, 2T0 |
 |   9| NAND PKG & NAND Voltage  | H: BGA (LF,HF) |
 |   10| Flash Generation  | M: 1st Generation, A: 2nd, B: 3rd, C: 4th, D: 5th, E: 6th ... |
