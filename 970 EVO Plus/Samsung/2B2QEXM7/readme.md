@@ -1,5 +1,5 @@
 # !ATTENTION!
 This firmware ONLY for Phoenix controller!
 
-Guess three files are three versions for different memory configurations [512MB LPDDR4, 1GB LPDDR4, 2GB LPDDR4]
+One file for 256Gb model, one for 512Gb & 1Tb, 3rd for 2Tb. I have no idea how to determine exactly which file for
 
