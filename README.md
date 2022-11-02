@@ -120,6 +120,14 @@ Write firmware to Firmware Slot without activation
     $ sudo nvme fw-commit -s 2 -a 0 /dev/nvme0
     
     Success committing firmware action:0 slot:2
+    
+Activate new firmware
+    
+     $ sudo nvme fw-commit -s 2 -a 2 /dev/nvme0
+    
+    Success committing firmware action:2 slot:2
+    
+Reboot and pray )    
 
 ## Model decoding
 
