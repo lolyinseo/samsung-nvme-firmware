@@ -107,6 +107,20 @@ Get some info
     ps    4 : mp:0.0050W non-operational enlat:2000 exlat:22000 rrt:4 rrl:4
               rwt:4 rwl:4 idle_power:- active_power:-
 
+As we see the disk support Firmware Image Download command (0x1 FW Commit and Download Supported), has 3 Firmware Slots (0x3 Number of Firmware Slots) and 1st Firmware Slot in Read Only mode(0 Firmware Slot 1 Read/Write). Try to use free Firmware Slot, do not overwrite the original Firmware.
+
+Lets download firmware to controller SRAM
+
+    sudo nvme fw-download -f firmware.bin /dev/nvme0
+    
+    Firmware download success
+
+Write firmware to Firmware Slot without activation
+
+    sudo nvme fw-commit -s 2 -a 0 /dev/nvme0
+    
+    Success committing firmware action:0 slot:2
+
 ## Model decoding
 
 | M | Z | X   | X  | X  | X  | X  | X  |X   | X  | X  |  X | -  |  X |  X | X  | X  | X  |
