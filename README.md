@@ -5,6 +5,7 @@ Collection of SAMSUNG NVMe SSD firmware
 Almost all modern SSD drives support firmware upgrade via NVM Express commands. For linux you can use https://github.com/linux-nvme/nvme-cli
 
 List all the NVMe SSDs
+
     $ sudo nvme list
     
     Node             SN                   Model                                    Namespace Usage                      Format           FW Rev  
