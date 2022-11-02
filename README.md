@@ -111,13 +111,13 @@ As we see the disk support Firmware Image Download command (0x1 FW Commit and Do
 
 Lets download firmware to controller SRAM
 
-    sudo nvme fw-download -f firmware.bin /dev/nvme0
+    $ sudo nvme fw-download -f firmware.bin /dev/nvme0
     
     Firmware download success
 
 Write firmware to Firmware Slot without activation
 
-    sudo nvme fw-commit -s 2 -a 0 /dev/nvme0
+    $ sudo nvme fw-commit -s 2 -a 0 /dev/nvme0
     
     Success committing firmware action:0 slot:2
 
