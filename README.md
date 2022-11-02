@@ -1,6 +1,16 @@
 # SAMSUNG nvme firmware
 Collection of SAMSUNG NVMe SSD firmware
 
+## Firmware upgrade
+Almost all modern SSD drives support firmware upgrade via NVM Express commands. For linux you can use https://github.com/linux-nvme/nvme-cli
+
+List all the NVMe SSDs
+    $ sudo nvme list
+    
+    Node             SN                   Model                                    Namespace Usage                      Format           FW Rev  
+    ---------------- -------------------- ---------------------------------------- --------- -------------------------- ---------------- --------
+    /dev/nvme0n1     S27FNY0HB04880       SAMSUNG MZVPV512HDGL-000H1               1         163.17  GB / 512.11  GB    512   B +  0 B   BXW74H0Q
+
 ## Model decoding
 
 | M | Z | X   | X  | X  | X  | X  | X  |X   | X  | X  |  X | -  |  X |  X | X  | X  | X  |
