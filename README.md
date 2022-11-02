@@ -115,7 +115,7 @@ Lets download firmware to controller SRAM
     
     Firmware download success
 
-Write firmware to Firmware Slot without activation
+Write firmware to free Firmware Slot 2 without activation
 
     $ sudo nvme fw-commit -s 2 -a 0 /dev/nvme0
     
