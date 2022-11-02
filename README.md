@@ -107,7 +107,7 @@ Get some info
     ps    4 : mp:0.0050W non-operational enlat:2000 exlat:22000 rrt:4 rrl:4
               rwt:4 rwl:4 idle_power:- active_power:-
 
-As we see the disk support Firmware Image Download command (0x1 FW Commit and Download Supported), has 3 Firmware Slots (0x3 Number of Firmware Slots) and 1st Firmware Slot in Read Only mode(0 Firmware Slot 1 Read/Write). Try to use free Firmware Slot, do not overwrite the original firmware.
+As we see the disk support Firmware Image Download command (0x1 FW Commit and Download Supported), has 3 Firmware Slots (0x3 Number of Firmware Slots) and 1st Firmware Slot in Read/Write mode(0 Firmware Slot 1 Read/Write) but I don't recommend using it.. Try to use free Firmware Slot, do not overwrite the original firmware.
 
 Lets download firmware to controller SRAM
 
